@@ -20,7 +20,12 @@ public class Show extends Applet {
         g.drawLine(100, 50, 150, 100);
         //Horizontale lijn
         g.drawLine(50, 100, 150, 100);
-
+        // rechthoek huis
+        g.drawRect(50, 100, 100, 50);
+        // deur
+        g.drawRect(60, 125, 25, 25);
+        // raam
+        g.drawRect(95, 110, 50, 30);
 
     }
 }
