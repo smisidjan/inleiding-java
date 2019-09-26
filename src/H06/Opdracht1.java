@@ -4,20 +4,19 @@ import java.applet.Applet;
 import java.awt.*;
 
 public class Opdracht1 extends Applet {
-    int a, b, c;
-    double uitkomst;
+        double Jan, Ali, Jeannette, Sarai ;
+        double uitkomst;
 
     public void init() {
-        a = 8;
-        b = 8;
-        c = 3;
-        uitkomst = a + b / c;
-
+        uitkomst = 113;
 
     }
 
     public void paint(Graphics g) {
-        g.drawString("De uitkomst is: " + uitkomst, 20, 20);
+        g.drawString(" Jan :" + uitkomst / 4 , 20, 20);
+        g.drawString(" Ali :" + uitkomst / 4 , 20, 40);
+        g.drawString(" Jeannette :" + uitkomst / 4 , 20, 55);
+        g.drawString(" Sarai :" + uitkomst / 4 , 20, 70);
 
     }
 }
